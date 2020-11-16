@@ -6,7 +6,6 @@ import 'https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/token/ER
 // Importing OpenZeppelin's SafeMath Implementation
 import 'https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/SafeMath.sol';
 
-
 contract ViperToken is ERC721Full {
     using SafeMath for uint256;
     // This struct will be used to represent one viper
